@@ -1,0 +1,18 @@
+{
+  "name": "es6-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scratchpad.js",
+  "scripts": {
+    "postinstall": "npm run clean && npm run build",
+    "clean": "rm -rf ./cloud && mkdir ./cloud",
+    "build": "browserify ./src/main.js -t babelify -o ./cloud/main.js",
+    "deploy": "parse deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1"
+  }
+}
