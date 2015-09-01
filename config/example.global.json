@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.5.0"
+  },
+  "applications": {
+    "_default": {
+      "link": ""
+    },
+    "es6-testing": {
+      "applicationId": "",
+      "masterKey": ""
+    }
+  }
+}

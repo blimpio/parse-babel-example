@@ -31,5 +31,5 @@ build/Release
 node_modules
 
 cloud/*
-config/*
+config/global.json
 scratchpad.js
