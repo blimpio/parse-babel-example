@@ -1,16 +1,15 @@
 {
-  "name": "es6-testing",
+  "name": "parse-es6-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "scratchpad.js",
+  "description": "Simple setup for Parse Cloud Code with Browserify + Babel.js",
   "scripts": {
     "postinstall": "npm run clean && npm run build",
     "clean": "rm -rf ./cloud && mkdir ./cloud",
     "build": "browserify ./src/main.js -t babelify -o ./cloud/main.js",
     "deploy": "parse deploy"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "@gcollazo",
+  "license": "MIT",
   "devDependencies": {
     "babelify": "^6.3.0",
     "browserify": "^11.0.1"
