@@ -12,14 +12,12 @@
     "setup": "mkdir -p cloud",
     "clean": "rm -rf cloud",
     "build": "browserify src/main.js -t babelify -o cloud/main.js",
-    "watch": "watchify src/main.js -t babelify -o cloud/main.js",
     "deploy": "npm run build && parse deploy"
   },
   "author": "@gcollazo",
   "license": "MIT",
   "devDependencies": {
     "babelify": "^6.3.0",
-    "browserify": "^11.0.1",
-    "watchify": "^3.4.0"
+    "browserify": "^11.0.1"
   }
 }
