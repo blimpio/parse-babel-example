@@ -1,11 +1,11 @@
 {
-  "name": "parse-es6-example",
+  "name": "parse-babel-example",
   "version": "1.0.0",
   "description": "Simple setup for Parse Cloud Code with Browserify + Babel.js",
   "main": "src/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gcollazo/parse-es6-example.git"
+    "url": "https://github.com/gcollazo/parse-babel-example.git"
   },
   "scripts": {
     "postinstall": "npm run setup && npm run build",
