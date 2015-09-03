@@ -1,8 +1,6 @@
 /* global Parse */
+import HelloController from './hello/controller';
+import GoodbyeController from './goodbye/controller';
 
-import helloHandler from './hello/handler';
-import goodbyeHandler from './goodbye/handler';
-
-
-Parse.Cloud.define("hello", helloHandler);
-Parse.Cloud.define("goodbye", goodbyeHandler);
+Parse.Cloud.define('hello', HelloController);
+Parse.Cloud.define('goodbye', GoodbyeController);
