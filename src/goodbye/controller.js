@@ -1,6 +1,5 @@
-import Goodbye from './models';
+import { sayGodbye } from './models';
 
 export default (request, response) => {
-  var goodbye = new Goodbye();
-  response.success(goodbye.greeting());
+  response.success(sayGodbye());
 };

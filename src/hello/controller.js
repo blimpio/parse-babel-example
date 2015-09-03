@@ -1,6 +1,5 @@
-import Hello from './models';
+import { sayHello } from './models';
 
 export default (request, response) => {
-  var hello = new Hello();
-  response.success(hello.greeting());
+  response.success(sayHello());
 };
