@@ -1,4 +1,4 @@
-import Goodbye from './model';
+import Goodbye from './models';
 
 export default (request, response) => {
   var goodbye = new Goodbye();
