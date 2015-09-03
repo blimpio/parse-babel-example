@@ -4,11 +4,11 @@
   },
   "applications": {
     "_default": {
-      "link": ""
+      "link": "<YOUR PARSE APPLICATION NAME>"
     },
     "es6-testing": {
-      "applicationId": "",
-      "masterKey": ""
+      "applicationId": "<YOUR PARSE APPLICATION ID>",
+      "masterKey": "<YOUR PARSE APPLICATION MASTER KEY>"
     }
   }
 }
